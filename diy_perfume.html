@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="diy_perfume.css">
+    <title>DIY Perfume Blending</title>
+</head>
+
+<body>
+    <header>
+            <h1>DIY Perfume Blending</h1>
+            <div id="cartIcon">
+                <img src="cart_icon.png" alt="Cart Icon">
+                <span id="cartCount">0</span>
+            </div>
+    </header>
+
+    <main>
+        <section id="options">
+            <h2>Select Your Ingredients</h2>
+            <div class="ingredient">
+                <h3>Base Notes</h3>
+                <button class="addToCartButton">Add to Cart</button>
+                <!-- List of base notes ingredients -->
+            </div>
+            <div class="ingredient">
+                <h3>Heart Notes</h3>
+                <button class="addToCartButton">Add to Cart</button>
+                <!-- List of heart notes ingredients -->
+            </div>
+            <div class="ingredient">
+                <h3>Top Notes</h3>
+                <button class="addToCartButton">Add to Cart</button>
+                <!-- List of top notes ingredients -->
+            </div>
+        </section>
+
+        <section id="mixing">
+            <h2>Mix Your Perfume</h2>
+            <div id="perfumeBottle">
+                <!-- Bottle image or container for displaying mixed perfume -->
+            </div>
+            <button id="mixButton">Mix It!</button>
+        </section>
+    
+    <div class="payment">
+            <form id="checkout">
+                <button id="checkoutButton" class="payButton">Checkout!</button>
+            <h1 class="payTitle">Personal Information</h1>
+            <label>Name and Surname</label>
+            <input type="text" id="name" placeholder="Prachi Gandhi" class="payInput">
+            <br>
+            <label>Phone Number</label>
+            <input type="text" placeholder="+91 9922375678" id="phoneNumber" class="payInput" required>
+            <br>
+            <label>Address</label>
+            <input type="text" placeholder="Elton St 21 22-145" class="payInput">
+            <h1 class="payTitle">Card Information</h1>
+            <div class="cardIcons">
+                <img decoding="async" src="visa.png" width="40" alt="" class="cardIcon">
+                <img decoding="async" src="master.png" alt="" width="40" class="cardIcon">
+            </div>
+            <input type="password" class="payInput" placeholder="Card Number" id="cardNumber" required>
+            <div class="cardInfo">
+                <input type="text" placeholder="mm" class="payInput sm" id="expiryMonth">
+                <input type="text" placeholder="yyyy" class="payInput sm" id="expiryYear">
+                <input type="text" placeholder="cvv" class="payInput sm" id="cvv" required>
+            </div>
+            <button type='submit' class="payButton">Checkout!</button>
+          </form>
+            <span class="close">X</span>
+        </div>
+    </div>
+
+    </main>
+
+
+
+    <footer>
+        <p>&copy; 2024 DIY Perfumes. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="diy_perfume.js"></script>
+</body>
+
+</html>

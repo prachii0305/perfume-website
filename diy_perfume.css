@@ -1,0 +1,141 @@
+/* Add your CSS styles for the DIY Perfume Blending page here */
+
+/* Header styles */
+header {
+    background-color: #232c5b;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+#cartIcon {
+    position: relative;
+}
+
+#cartIcon img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#cartCount {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 12px;
+}
+
+/* Main section styles */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.ingredient {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.addToCartButton {
+    background-color: #232c5b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.addToCartButton:hover {
+    background-color: #1e2252;
+}
+
+#mixing {
+    text-align: center;
+}
+
+#perfumeBottle {
+    width: 200px;
+    height: 300px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 20px auto;
+    position: relative;
+}
+
+#mixButton {
+    background-color: #232c5b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#mixButton:hover {
+    background-color: #1e2252;
+}
+
+/* Payment form styles */
+.payment {
+    display: none; /* Hide payment form by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+#checkoutForm {
+    background-color: white;
+    width: 80%;
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: red;
+}
+
+/* Footer styles */
+footer {
+    background-color: #232c5b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
